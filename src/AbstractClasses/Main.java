@@ -14,6 +14,7 @@ public class Main {
         animals.add(new Dog("Yorkie", "small", 13));
         animals.add(new Fish("Goldfish", "small", 1.1));
         animals.add(new Fish("Shark", "medium", 125));
+        animals.add(new Horse("Clydesdale", "large", 1000));
     }
 
     private static void doAnimalStuff(Animal animal) {
