@@ -35,5 +35,14 @@ public class MoreLists {
         System.out.println(groceries);
         // [apples, bananas, milk, eggs, yogurt, pickles, mustard, cheese]
 
+        System.out.println("Third item = " + groceries.get(2));
+
+        if (groceries.contains("mustard")) {
+            System.out.println("list contains mustard");
+        }
+
+        groceries.add("yogurt"); // added another "yogurt" to the list
+        System.out.println("first = " + groceries.indexOf("yogurt"));
+        System.out.println("last = " + groceries.lastIndexOf("yogurt"));
     }
 }
