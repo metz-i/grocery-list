@@ -1,6 +1,6 @@
 package AbstractClasses;
 
-public class Horse extends Animal {
+public class Horse extends Mammal {
 
     public Horse(String type, String size,
                  double weight) {
@@ -10,6 +10,11 @@ public class Horse extends Animal {
     @Override
     public void move(String speed) {
 
+    }
+
+    @Override
+    public void shedHair() {
+        System.out.println(getExplicitType() + " sheds in the spring");
     }
 
     @Override
