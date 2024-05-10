@@ -25,5 +25,15 @@ public class MoreLists {
         System.out.println(groceries);
         // [apples, bananas, milk, eggs, yogurt]
 
+        ArrayList<String> groceriesTwo = new ArrayList<>(
+                List.of("pickles", "mustard", "cheese"));
+        System.out.println(groceriesTwo);
+        // [pickles, mustard, cheese]
+
+        // Adding groceriesTwo to groceries:
+        groceries.addAll(groceriesTwo);
+        System.out.println(groceries);
+        // [apples, bananas, milk, eggs, yogurt, pickles, mustard, cheese]
+
     }
 }
